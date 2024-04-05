@@ -1,4 +1,4 @@
-/* Reset default browser styles */
+
 body, h1, p {
     margin: 0;
     padding: 0;
@@ -13,9 +13,9 @@ body {
 }
 
 header, footer {
-    background-color: #343a40; 
+    background-color: #020813; 
     color: #fff;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
 }
 
@@ -38,11 +38,12 @@ main {
     grid-template-rows: repeat(3, 100px);
     gap: 19px;
     justify-content: center;
-    border: 1px solid #efefef;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    border: 1px solid #f8f9fa;
+    padding-top: 3px;
+    padding-bottom: 30px;
+    margin-right: 20px;
     width: 380px;
-    height: 350px;
+    height: 330px;
 }
 
 .cell {
@@ -57,6 +58,7 @@ main {
     transition: background-color 0.3s;
     box-sizing: border-box;
     font-size: 100px;
+    border-radius: 5px;
 }
 
 #settings {
@@ -78,6 +80,7 @@ main {
     height: 50px; 
     margin-top: 10px;
     margin-right: 3px;
+    border-radius: 7px;
 }
 
 #settings input {
@@ -86,7 +89,9 @@ main {
     margin-top: 10px;
     margin-left: 20px;
     background-color: #efefff;
-    border: 2px solid #efefef;
+    border: 1px solid #efefef;
+    text-align: center;
+    border-radius: 15px;
 }
 
 #settings label {
@@ -109,14 +114,15 @@ button:disabled {
 }
 
 .gray-button {
-    background-color: #7d869e; 
+    background-color: #7d8696; 
     color: #fff;
     border: none;
     border-radius: 5px;
-    padding: 12px 20px;
+    padding: 13px 20px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin: 4px;
+    margin: 2px;
+    border-radius: 7px;
 }
 
 .nbacktext {
