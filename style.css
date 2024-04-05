@@ -1,0 +1,129 @@
+/* Reset default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+header, footer {
+    background-color: #343a40; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 19px;
+    justify-content: center;
+    border: 1px solid #efefef;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 380px;
+    height: 350px;
+}
+
+.cell {
+    width: calc((380px - 20px) / 3);
+    height: calc((380px - 20px) / 3);
+    border: 1px solid #efefef;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+    font-size: 100px;
+}
+
+#settings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#settings button {
+    width: 90px;
+    height: 50px; 
+    margin-top: 10px;
+    margin-right: 3px;
+}
+
+#settings input {
+    width: 125px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #efefff;
+    border: 2px solid #efefef;
+}
+
+#settings label {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3333ee;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:disabled {
+    background-color: #227aef;
+    cursor: not-allowed;
+}
+
+.gray-button {
+    background-color: #7d869e; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 4px;
+}
+
+.nbacktext {
+    font-size: 25px;
+}
+
+.StimuliButtonContainer {
+    display: flex;
+    flex-direction: row;
+}
