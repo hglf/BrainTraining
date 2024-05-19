@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta N Back</title>
+    <link rel="stylesheet" href="DecaNBack.css">
+</head>
+<body>
+    <div class="menubutton">
+        <a href="menu.html" class="menu">←</a>
+    </div>
+    <div class="header">
+        <h1 id="TypeNBack" class="title">Delta N Back</h1>
+         </div>
+    <h6 id="NBackComb" class="NBackCT">-</h6>
+    <p class="e">----------------------------------------------------------------------------------------------</p>
+        <p id="stimuliCount" class="a">Stimuli Count: 0</p><p id="iterationCount">Iterations: 0</p>
+        <p id="accuracy" class="a">Accuracy: -</p>
+    <main>
+        <div id="game-board"></div>
+        <div id="settings">
+    <div class="button-container">
+        <button id="startButton">Start Game</button>
+        <button id="stopButton" class="stopbutton" disabled>Stop Game</button>
+    </div>
+    
+    <input type="number" id="nValueInput" placeholder="Enter N value" min="1">
+</div>
+<div class="StimuliButtonContainer">
+<button id="checkPositionButton" class="gray-button">Position</button>
+<button id="checkColorButton" class="gray-button">Color</button>
+<button id="checkDigitButton" class="gray-button">Char</button>
+<button id="checkSizeButton" class="gray-button">Size</button>
+</div>
+<div class="StimuliButtonContainer">
+<button id="checkPositiontwoButton" class="gray-button">C-Position</button>
+<button id="checkCellButton" class="gray-button">Cell</button>
+<button id="checkWordButton" class="gray-button">Word</button>
+<button id="checkWordsizeButton" class="gray-button">W-Size</button>
+</div>
+<div class="StimuliButtonContainer">
+<button id="checkRotationButton" class="gray-button">Rotation</button>
+<button id="checkWordrotationButton" class="gray-button">W-Rotation</button>
+</div>
+    </main>
+    <div>
+        <p class="e">-----------------------------------------------------------------------------------------------</p>
+        <div class="StimuliSettings">
+            <h1>Settings</h1>
+            <div>
+        <button id="WordsizeCheck" class="stimulinput">Word Size
+        </div>
+        <div>
+        <button id="WordCheck" class="stimulinput">Word
+        </div>
+        <div>
+        <button id="CellCheck" class="stimulinput">Cell
+        </div>
+        <div>
+        <button id="SizeCheck" class="stimulinput">Size
+        </div>
+        <div>
+        <button id="WordrotationCheck" class="stimulinput">Word Rotation
+        </div>
+        <div>
+        <button id="RandomCheck" class="stimulinput">Random
+        </div>
+        </div>
+    <footer>
+        <p class="e">19/05/2024 • Delta N Back</p>
+    </footer>
+
+    <script src="DecaNBack.js" defer></script>
+</body>
+</html>
