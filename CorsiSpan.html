@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corsi Block Tapping</title>
+  <link rel="stylesheet" href="CorsiSpan.css">
+  <div class="menubutton">
+      <a href="menu.html" class="menu">←</a>
+  </div>
+  <h1 class="heading">Corsi Span</h1>
+</head>
+<body>
+    <div>
+      Total Stimuli Tapped: <span id="total-stimuli">0</span>
+    </div>
+    <div>
+      Correct Stimuli Tapped: <span id="correct-stimuli">0</span>
+    </div>
+    <div>
+        Accuracy: <span id="accuracy">0</span>
+    </div>
+  <div class="container">
+    <table id="block-tapping">
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <input type="number" id="time-interval" placeholder="Time Delay (ms)">
+    <input type="number" id="num-stimuli" placeholder="Number of Stimuli">
+    <button id="start-btn">Start</button>
+    <button id="stop-btn">Stop</button>
+    
+  </div>
+  <footer>
+      <p class="e">19/05/2024 • Corsi Span</p>
+  </footer>
+
+  <script src="CorsiSpan.js"></script>
+</body>
+</html>
