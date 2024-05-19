@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#block-tapping {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+body {
+    background-color: #000011;
+}
+#block-tapping td {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #000;
+  text-align: center;
+  font-size: 24px;
+}
+
+input[type="number"] {
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  background-color: #222;
+  color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: 2px solid #111133;
+  margin: 2px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.heading {
+    margin-left: 90px;
+    width: 230px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border: 3px solid #fff;
+    border-radius: 30px;
+}
+
+.menu {
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 20px;
+} 
+.menubutton {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    padding-right: 15px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    padding-left: 15px;
+}
+.e {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 25px;
+}
