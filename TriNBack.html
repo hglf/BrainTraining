@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tri N Back</title>
+    <link rel="stylesheet" href="TriNBack.css">
+</head>
+<body>
+    <div class="menubutton">
+        <a href="menu.html" class="menu">←</a>
+    </div>
+    <div class="header">
+        <h1 id="TypeNBack">Tri N Back</h1>
+    </div>
+   <p class="e">----------------------------------------------------------------------------------------------</p>
+        <p class="e" id="stimuliCount">Stimuli Count: 0</p>
+        <p class="e" id="Iterations">Iterations: 0</p>
+        <p class="e" id="Accuracy">Accuracy: 0</p>
+    <main>
+        <div id="game-board"></div>
+        <div id="settings">
+    <div class="button-container">
+        <button id="startButton">Start Game</button>
+        <button id="stopButton" class="stopbutton" disabled>Stop Game</button>
+    </div>
+    
+    <input type="number" id="nValueInput" placeholder="Enter N value" min="1">
+</div>
+<div class="StimuliButtonContainer">
+<button id="checkPositionButton" class="gray-button">Position</button>
+<button id="checkColorButton" class="gray-button">Color</button>
+<button id="checkDigitButton" class="gray-button">Digit</button>
+<button id="checkStimuliButton" class="gray-button">Stimuli</button>
+</div>
+<div>
+<button id="checkDownButton" class="gray-button">Down</button>
+<button id="checkUpButton" class="gray-button">Up</button>
+<button id="checkLeftButton" class="gray-button">Left</button>
+<button id="checkRightButton" class="gray-button">Right</button>
+</div>
+<div>
+<button id="checkLargernButton" class="gray-button">Larger Digit</button>
+<button id="checkSmallernButton" class="gray-button">Smaller Digit</button>
+</div>
+    </main>
+
+    <footer>
+        <p>19/05/2024 • Theta N Back</p>
+    </footer>
+
+    <script src="TriNBack.js" defer></script>
+</body>
+</html>
