@@ -1,0 +1,90 @@
+body {
+    background-color: #111;
+}
+.button {
+    font-size: 20px;
+    color: #fff;
+    background-color: #222;
+    border: 2px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 3px;
+    margin: 5px;
+}
+.buttonA {
+    font-size: 20px;
+    color: #fff;
+    background-color: #222;
+    border: 2px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 3px;
+    margin: 5px;
+}
+.buttonB {
+    font-size: 20px;
+    color: #fff;
+    background-color: #222;
+    border: 2px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.buttons {
+    position: absolute;
+    left: 20px;
+    top: 350px;
+}
+.buttonsA {
+    position: absolute;
+    left: 20px;
+    top: 585px;
+}
+.imageAA {
+    width: 166px;
+    height: 165px;
+    position: absolute;
+    top: 170px;
+    left: 25px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+}
+.imageBB {
+    width: 167px;
+    height: 165px;
+    position: absolute;
+    top: 170px;
+    left: 208px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+}
+.imageCC {
+    width: 165px;
+    height: 165px;
+    position: absolute;
+    top: 405px;
+    left: 25px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+}
+header {
+    background-color: #020813; 
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #aaaa55;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 25px;
+}
+.e {
+    color: #fff;
+}
