@@ -1,0 +1,201 @@
+/* Reset default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #000;
+}
+
+.header {
+    background-color: #020813; 
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 5px;
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+    border: 3px solid #fff;
+    border-radius: 25px;
+}
+footer {
+    background-color: #020813; 
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 28px;
+    justify-content: center;
+    padding-top: 3px;
+    padding-bottom: 30px;
+    margin-right: 20px;
+    width: 380px;
+    height: 330px;
+}
+
+.cell {
+    width: calc((407px - 20px) / 3);
+    height: calc((407px - 20px) / 3);
+    border: 1px solid #111;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+    font-size: 100px;
+    border-radius: 7px;
+}
+
+#settings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#settings button {
+    width: 90px;
+    height: 50px; 
+    margin-top: 10px;
+    margin-right: 3px;
+    border-radius: 10px;
+}
+
+#settings input {
+    width: 125px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #555;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#settings label {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0411a0;
+    color: #fff;
+    border: 1px solid #0000ff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#settings button:disabled {
+    background-color: #0744d1;
+    cursor: not-allowed;
+    border: 1px solid #3333ff;
+}
+
+.StimuliButtonContainer button:disabled {
+    background-color: #333;
+    cursor: not-allowed; 
+}
+
+.gray-button {
+    background-color: #000; 
+    color: #fff;
+    border: 1px solid #555;
+    padding: 13px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.nbacktext {
+    font-size: 25px;
+}
+
+.StimuliButtonContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.stimulinput {
+    height: 45px;
+    width: 150px;
+    margin-top: 3px;
+    background-color: #000;
+    border: 1px solid #fff;
+}
+
+.NBackCT {
+    font-size: 9px;
+    color: #fff;
+    text-align: center;
+}
+.title {
+    font-size: 40px;
+}
+.StimuliSettings {
+    margin-left: 12px;
+    color: #fff;
+}
+.e {
+    color: #fff;
+}
+.menu {
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 20px;
+} 
+.menubutton {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 25px;
+    padding-right: 10px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    padding-left: 10px;
+}
+.a {
+    color: #fff;
+    margin: 0px;
+}
