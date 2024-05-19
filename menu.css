@@ -2,88 +2,88 @@ body {
     background-color: #111;
 }
 .button {
-    font-size: 80px;
+    font-size: 20px;
     color: #fff;
     background-color: #222;
-    border: 8px solid #fff;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 120px;
-    padding-right: 120px;
-    border-radius: 12px;
-    margin: 20px;
+    border: 2px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 3px;
+    margin: 5px;
 }
 .buttonA {
-    font-size: 80px;
+    font-size: 20px;
     color: #fff;
     background-color: #222;
-    border: 8px solid #fff;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 160px;
-    padding-right: 160px;
-    border-radius: 12px;
-    margin: 20px;
+    border: 2px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 3px;
+    margin: 5px;
 }
 .buttonB {
-    font-size: 80px;
+    font-size: 20px;
     color: #fff;
     background-color: #222;
-    border: 8px solid #fff;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 160px;
-    padding-right: 160px;
-    border-radius: 12px;
-    margin: 20px;
+    border: 2px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 3px;
+    margin: 5px;
 }
 
 .buttons {
     position: absolute;
-    left: 80px;
-    top: 1400px;
+    left: 20px;
+    top: 350px;
 }
 .buttonsA {
     position: absolute;
-    left: 80px;
-    top: 2140px;
+    left: 20px;
+    top: 585px;
 }
 .imageAA {
-    width: 664px;
-    height: 660px;
+    width: 166px;
+    height: 165px;
     position: absolute;
-    top: 680px;
-    left: 100px;
-    border: 8px solid #fff;
-    border-radius: 12px;
+    top: 170px;
+    left: 25px;
+    border: 2px solid #fff;
+    border-radius: 3px;
 }
 .imageBB {
-    width: 668px;
-    height: 660px;
+    width: 167px;
+    height: 165px;
     position: absolute;
-    top: 680px;
-    left: 832px;
-    border: 8px solid #fff;
-    border-radius: 12px;
+    top: 170px;
+    left: 208px;
+    border: 2px solid #fff;
+    border-radius: 3px;
 }
 .imageCC {
-    width: 660px;
-    height: 660px;
+    width: 165px;
+    height: 165px;
     position: absolute;
-    top: 1620px;
-    left: 100px;
-    border: 8px solid #fff;
-    border-radius: 12px;
+    top: 405px;
+    left: 25px;
+    border: 2px solid #fff;
+    border-radius: 3px;
 }
 header {
     background-color: #020813; 
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     color: #aaaa55;
-    padding-top: 40px;
+    padding-top: 10px;
     text-align: center;
-    border-radius: 100px;
+    border-radius: 25px;
 }
 .e {
     color: #fff;
