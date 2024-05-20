@@ -216,6 +216,7 @@ const Accuracyt = document.getElementById('Accuracy');
         const digitSpan = document.createElement('span');
         if (stimuli == 0) {
         digitSpan.textContent = digit;
+        digitSpan.style.color = '#fff';
 }
         if (stimuli == 1) {
             cell.style.backgroundColor = color;
