@@ -12,12 +12,12 @@
 }
 
 body {
-    background-color: #000011;
+    background-color: #111;
 }
 #block-tapping td {
   width: 80px;
   height: 80px;
-  border: 1px solid #000;
+  border: 1px solid #333;
   text-align: center;
   font-size: 24px;
 }
@@ -27,6 +27,7 @@ input[type="number"] {
   font-size: 16px;
   margin-bottom: 10px;
   background-color: #222;
+  border: 1px solid #555;
   color: #fff;
 }
 
@@ -34,16 +35,16 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  background-color: #007bff;
+  background-color: #0037bb;
   color: #fff;
-  border: 2px solid #111133;
+  border: 2px solid #001487;
   margin: 2px;
   border-radius: 8px;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #003491;
 }
 
 .heading {
@@ -82,4 +83,7 @@ button:hover {
     color: #fff;
     text-align: center;
     margin-bottom: 25px;
+}
+.a {
+    color: #fff;
 }
