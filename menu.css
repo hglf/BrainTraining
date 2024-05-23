@@ -1,6 +1,9 @@
 body {
     background-color: #111;
 }
+a:hover {
+    background-color: #252;
+}
 .button {
     font-size: 20px;
     color: #fff;
@@ -34,6 +37,18 @@ body {
     padding-bottom: 10px;
     padding-left: 40px;
     padding-right: 40px;
+    border-radius: 3px;
+    margin: 5px;
+}
+.buttonC {
+    font-size: 20px;
+    color: #fff;
+    background-color: #222;
+    border: 2px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
     border-radius: 3px;
     margin: 5px;
 }
@@ -75,6 +90,15 @@ body {
     border: 2px solid #fff;
     border-radius: 3px;
 }
+.imageDD {
+    width: 165px;
+    height: 165px;
+    position: absolute;
+    top: 405px;
+    left: 208px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+}
 header {
     background-color: #020813; 
     margin-top: 10px;
@@ -87,4 +111,11 @@ header {
 }
 .e {
     color: #fff;
+}
+.menu {
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    padding: 5px;
 }
