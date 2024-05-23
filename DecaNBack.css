@@ -4,12 +4,13 @@ body, h1, p {
     padding: 0;
 }
 
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #000;
+    background-color: #111;
 }
 
 .header {
@@ -60,7 +61,7 @@ main {
 .cell {
     width: calc((407px - 20px) / 3);
     height: calc((407px - 20px) / 3);
-    border: 1px solid #111;
+    border: 1px solid #202020;
     background-size: cover;
     background-repeat: no-repeat; 
     display: flex;
@@ -160,6 +161,9 @@ button {
     border: 1px solid #fff;
 }
 
+.stimulinput:hover {
+    background-color: #0f5810
+}
 .NBackCT {
     font-size: 9px;
     color: #fff;
